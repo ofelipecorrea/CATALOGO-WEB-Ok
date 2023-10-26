@@ -1,23 +1,11 @@
+@import url(https://db.onlinewebfonts.com/c/6c431267b16796f0e80f247ed802a2a4?family=Zzyzx);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap);
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
     overflow-x: hidden;
-}
-
-@font-face {
-    font-family: Divina;
-    src: url(/ASSETS/FONT/ZZYZX.TTF)
-}
-
-@font-face {
-    font-family: Menutexto;
-    src: url(/ASSETS/FONT/Josefins.ttf)
-}
-
-@font-face {
-    font-family: Frete;
-    src: url(/ASSETS/FONT/Shoulder.ttf)
 }
 
 :root {
@@ -51,10 +39,10 @@
 
 .logo {
     font-size: 21px;
-    font-family: 'Divina';
+    font-family: "Zzyzx";
     color: var(--cor-cabecalho-hover);
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 800;
 }
 
 
@@ -71,8 +59,8 @@
     flex-direction: row;
     gap: 2rem;
     align-items: center;
-    font-family: 'Menutexto';
-    font-weight: 300;
+    font-family: "Zzyzx";
+    font-weight: 800;
     font-size: 18px;
 }
 
@@ -84,17 +72,18 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Frete';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     font-size: 20px;
 }
 
 .destaques {
-    font-family: 'Menutexto';
+    font-family: 'Montserrat', sans-serif;
     color: var(--cor-quinta);
     text-align: center;
     padding: 3rem 0rem 3rem 0rem;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .img {
@@ -114,8 +103,8 @@
 }
 
 .tituloroupa {
-    font-family: 'Menutexto';
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .imagenscarrousel {
@@ -132,21 +121,21 @@
 }
 
 .tituloimagenscarrousel {
-    font-family: 'Menutexto';
+    font-family: 'Montserrat', sans-serif;
     color: var(--cor-quinta);
     text-align: center;
     padding: 3rem 0rem 1rem 0rem;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .textocarrousel {
-    font-family: 'Menutexto';
+    font-family: 'Montserrat', sans-serif;
     color: var(--cor-quinta);
     text-align: center;
     padding: 3rem 0rem 0rem 0rem;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
     border-radius: 40px 40px 0px 0px ;
 }
 
@@ -157,8 +146,8 @@
 }
 
 .textocarrousel1 {
-    font-family: 'Menutexto';
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     padding: 0.5rem 4rem 0.5rem 0.5rem;
 }
 
