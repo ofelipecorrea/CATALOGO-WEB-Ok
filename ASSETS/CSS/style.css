@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: Divina;
+    src: url(/ASSETS/FONT/ZZYZX.TTF)
+} 
+
+@font-face {
+    font-family: Menutexto;
+    src: url(/ASSETS/FONT/Josefins.ttf)
+}
+
+@font-face {
+    font-family: Frete;
+    src: url(/ASSETS/FONT/Shoulder.ttf)
+}
+
+:root {
+    --cor-cabecalho-hover: #696969;
+    --cor-cabecalho-color: #fffff9;
+    --cor-cabecalho-preto: #000;
+    --cor-cabecalho-branco: #FFF;
+}
+
+.cabecalho {
+    padding: 2rem;
+    background-color: var(--cor-cabecalho-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.cabecalho1 {
+    background-image: url(/ASSETS/IMG/rodape.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+}
+
+.cabecalho a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 21px;
+    font-family: 'Divina';
+    color: var(--cor-cabecalho-hover);
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+.menu {
+    color: var(--cor-cabecalho-hover);
+}
+
+.menu:hover {
+    border-bottom: 1px solid var(--cor-cabecalho-hover);
+}
+
+.menuclass {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    font-family: 'Menutexto';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.bannersection {
+    width: 100vw;
+}
+
+.frete {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Frete';
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+
+@media (max-width: 560px) {
+    .cabecalho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+
+    .menuclass {
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+}
