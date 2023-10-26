@@ -1,13 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
+    overflow-x: hidden;
 }
 
 @font-face {
     font-family: Divina;
     src: url(/ASSETS/FONT/ZZYZX.TTF)
-} 
+}
 
 @font-face {
     font-family: Menutexto;
@@ -24,6 +25,11 @@
     --cor-cabecalho-color: #fffff9;
     --cor-cabecalho-preto: #000;
     --cor-cabecalho-branco: #FFF;
+    --cor-primeira: #C9F0FF;
+    --cor-segunda: #EAFFFD;
+    --cor-terceira: #EFEFF0;
+    --cor-quarta: #D6CAD6;
+    --cor-quinta: #6B5E62;
 }
 
 .cabecalho {
@@ -36,10 +42,7 @@
 }
 
 .cabecalho1 {
-    background-image: url(/ASSETS/IMG/rodape.png);
-    background-repeat: no-repeat;
     width: 100vw;
-    background-size: cover;
 }
 
 .cabecalho a {
@@ -83,17 +86,91 @@
     text-align: center;
     font-family: 'Frete';
     font-size: 20px;
-    padding: 0.5rem;
 }
+
+.destaques {
+    font-family: 'Menutexto';
+    color: var(--cor-quinta);
+    text-align: center;
+    padding: 3rem 0rem 3rem 0rem;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.titulomaster{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 10px 10px;
+    align-items: center;
+}
+
+.tituloroupa {
+    font-family: 'Menutexto';
+    font-weight: 300;
+}
+
+.imagenscarrousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    gap: 1rem ;
+    padding-bottom: 1rem;
+}
+
+.imagenscarrousel img {
+    width: 33vw;
+}
+
+.tituloimagenscarrousel {
+    font-family: 'Menutexto';
+    color: var(--cor-quinta);
+    text-align: center;
+    padding: 3rem 0rem 1rem 0rem;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.textocarrousel {
+    font-family: 'Menutexto';
+    color: var(--cor-quinta);
+    text-align: center;
+    padding: 3rem 0rem 0rem 0rem;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 40px 40px 0px 0px ;
+}
+
+.tamanhos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textocarrousel1 {
+    font-family: 'Menutexto';
+    font-weight: 300;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+}
+
 
 
 @media (max-width: 560px) {
     .cabecalho {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
 
     .menuclass {
