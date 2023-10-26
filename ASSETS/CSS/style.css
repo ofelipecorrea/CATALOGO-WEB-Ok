@@ -7,17 +7,17 @@
 
 @font-face {
     font-family: Divina;
-    src: url(/ASSETS/FONT/ZZYZX.TTF)
+    src: url(ASSETS/FONT/ZZYZX.TTF)
 }
 
 @font-face {
     font-family: Menutexto;
-    src: url(/ASSETS/FONT/Josefins.ttf)
+    src: url(ASSETS/FONT/Josefins.ttf)
 }
 
 @font-face {
     font-family: Frete;
-    src: url(/ASSETS/FONT/Shoulder.ttf)
+    src: url(ASSETS/FONT/Shoulder.ttf)
 }
 
 :root {
