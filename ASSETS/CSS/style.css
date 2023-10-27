@@ -29,6 +29,7 @@
 }
 
 .cabecalho1 {
+    position: fixed;
     width: 100vw;
 }
 
@@ -64,6 +65,7 @@
 }
 
 .bannersection {
+    padding-top: 5rem;
     width: 100vw;
 }
 
